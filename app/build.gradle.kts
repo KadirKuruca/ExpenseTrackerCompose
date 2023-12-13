@@ -87,6 +87,9 @@ dependencies {
     //Timber
     implementation("com.jakewharton.timber:timber:5.0.1")
 
+    //Gson
+    implementation("com.google.code.gson:gson:2.10.1")
+
     //Room
     val room_version = "2.5.2"
     implementation("androidx.room:room-ktx:$room_version")
